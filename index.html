@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    function redirect() {
+      const params = window.location.search;
+      const targetUrl = "https://moghwan.io" + params;
+      window.location.href = targetUrl;
+    }
+
+    window.onload = redirect;
+  </script>
+</head>
+<body>
+  <p>If you are not redirected, <a href="https://moghwan.io">click here</a>.</p>
+</body>
+</html>
+
